@@ -1,0 +1,21 @@
+{
+  "name": "racing-post-scrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "debug": "echo \"Don't forget to run node-inspector\" && node --debug-brk app.js"
+  },
+  "author": "mrNamelesss",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "colors": "^1.1.2",
+    "json2xls": "^0.1.2",
+    "needle": "^1.0.0",
+    "sync-request": "^3.0.1",
+    "tress": "^1.0.3"
+  }
+}

@@ -1,0 +1,14 @@
+Instructions for Windows:
+Preparation:
+1. Install latest version of Node.js from https://nodejs.org/en/download/
+2. Go to the folder containing "app.js" (using Explorer)
+3. Shift + Right Mouse Button on empty space (with no file selected) and choose "Open command window here"
+4. Type "npm i" in the console
+5. Wait while all the required modules are installed
+
+Running the script:
+1. Go to the folder containing "app.js" (using Explorer)
+2. Shift + Right Mouse Button on empty space (with no file selected) and choose "Open command window here"
+3. Type "node app YOUR_DATE" in the console (e.g. "node app 2016-01-28")
+4. The web-scraper begins collecting data from https://www.racingpost.com/racecards/YOUR_DATE/time-order if YOUR_DATE is future and https://www.racingpost.com/results/YOUR_DATE/time-order otherwise
+5. It finishes with logging "./data.xlsx file saved"
